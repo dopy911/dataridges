@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+nltk = "==3.6.7"
+pandas = "==2.2.3"
+matplotlib = "==3.5.1"
+seaborn = "==0.13.2"
+numpy = "==1.26.4"
+streamlit = "==1.41.1"
+altair = "<5"
+openai = "*"
+langchain = "*"
+langchain-core = "*"
+langchain-openai = "*"
+langgraph = "*"
+langchain-community = "*"
+tavily-python = "*"
+debugpy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
